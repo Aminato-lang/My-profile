@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700&display=swap');
+/*color*/
+body{
+    background-color: floralwhite;
+    color: #2D2630;
+}
+h1, h2, h3 {
+    color: #6B4E71;
+}
+nav a {
+    color: rgb(214, 146, 156)
+}
+/*typography*/ 
+body{
+    font-family: 'poppins', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+/*heading*/
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.tagline{
+    font-style: italic;
+}
+.highlight{
+    color: rgb(214, 146, 156);
+}
+#about{
+    text-align: left;
+}
+
+nav a {
+    color: pink;
+    text-decoration: line;
+}
+nav a:hover {
+    color: blue;}
+footer {
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+text-transform: uppercase;
+}
+.tagline {
+    font-style: italic;
+}
+thead {
+    background-color: #6B4E71;
+    color: floralwhite;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(245, 230, 235);
+}
+
+
+/* ===== Form Styles ===== */
+
+label {
+    font-weight: 600;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+input:invalid {
+    color: red;
+}
+input:focus {
+    background-color: lightyellow;
+}
