@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register to connect with Amina Hassan and join her community page.">
+    <title>Register | Amina's Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="site-logo">Amina Hassan</a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About Me</a>
+                <a href="index.html#skills">My Skills</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="register.html" class="nav-cta" aria-current="page">Register</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="page-intro section">
+            <div class="container">
+                <h1>Join My Page</h1>
+                <p class="tagline">Fill in your details below.</p>
+            </div>
+        </section>
+        <section class="section register-section">
+            <div class="container">
+                <div class="form-card">
+                    <h2>Registration Form</h2>
+
+                    <form class="register-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name"
+                                autocomplete="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com"
+                                autocomplete="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Create a password"
+                                autocomplete="new-password" minlength="6" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest">Favorite Topic</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Choose a topic...</option>
+                                <option value="web-dev">HTML &amp; CSS</option>
+                                <option value="python">Python Programming</option>
+                                <option value="books">Books &amp; Thrillers</option>
+                                <option value="travel-fashion">Travel, Food &amp; Fashion</option>
+                                <option value="content">Content Creation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group form-group-full">
+                            <label for="bio">Tell Me About Yourself</label>
+                            <textarea id="bio" name="bio" rows="4"
+                                placeholder="Share a fun fact, a book recommendation, or just say hello!"></textarea>
+                        </div>
+
+                        <div class="form-actions form-group-full">
+                            <button type="submit" class="btn btn-primary btn-submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-note">Thank you for visiting!</p>
+            <p class="footer-author">Amina Hassan</p>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="index.html">Back to Profile</a>
+                <a href="index.html#about">About Me</a>
+                <a href="index.html#skills">My Skills</a>
+                <a href="index.html#projects">Projects</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
